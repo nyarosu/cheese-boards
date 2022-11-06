@@ -2,7 +2,7 @@ const { User, Board, Cheese } = require('../models')
 const db = require('../db/db.js')
 
 async function seed() {
-    await db.sync({ force: true })
+    await db.sync()
 } 
 
 
