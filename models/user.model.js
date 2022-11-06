@@ -14,3 +14,5 @@ User.init({
         allowNull: false
     }
 }, { sequelize: db })
+
+module.exports = User

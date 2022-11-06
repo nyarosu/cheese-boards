@@ -19,3 +19,5 @@ Board.init({
         allowNull: false
     }
 }, { sequelize: db })
+
+module.exports = Board
