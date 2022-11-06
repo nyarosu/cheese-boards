@@ -5,4 +5,4 @@ async function seed() {
     await db.sync({ force: true })
 } 
 
-seed()
+module.exports = seed
